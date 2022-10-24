@@ -1,4 +1,4 @@
-import RtcClient from "../rtcApi/rtc-client";
+import RtcClient from "@/room/rtcApi/rtc-client";
 export interface RTCClientControlModelState {
   rtc: RtcClient;
 }

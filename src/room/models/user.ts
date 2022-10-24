@@ -40,7 +40,7 @@ export const userInitialState: UserModelState = {
 };
 
 export const userActions = {
-  setCurrentUser(data: RoomModelState, value: UserModelState) {
-    Object.assign(data.currentUser, value)
+  setCurrentUser(room: RoomModelState, value: UserModelState) {
+    Object.assign(room.currentUser, value)
   },
 };
