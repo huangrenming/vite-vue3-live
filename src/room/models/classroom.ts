@@ -75,7 +75,7 @@ export interface ClassRoomModelState {
 }
 
 export const classRoomInitialState: ClassRoomModelState = {
-  appId: null,
+  appId: 'test1025',
   token: null,
   roomId: null,
   userId: null,
