@@ -13,3 +13,8 @@ export interface RoomActionState {
 }
 
 export interface IVolume {}
+
+export type{
+  UserModelState,
+  SettingsModelState,
+}
